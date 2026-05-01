@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-01T15:34:14.220300",
+    "last_updated": "2026-05-01T19:54:02.814345",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.103"
@@ -142,7 +142,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-04-19",
-    "age_days": 11,
+    "age_days": 12,
     "total_months": 12,
     "history_confidence": "high"
   },
@@ -399,30 +399,9 @@
           "start": "2026-03-07",
           "end": "2026-04-03"
         },
-        "anchors": {
-          "60s": {
-            "current_bpm": 165,
-            "previous_bpm": 176,
-            "pct_change": -6.2
-          },
-          "300s": {
-            "current_bpm": 156,
-            "previous_bpm": 174,
-            "pct_change": -10.3
-          },
-          "1200s": {
-            "current_bpm": 154,
-            "previous_bpm": 161,
-            "pct_change": -4.3
-          },
-          "3600s": {
-            "current_bpm": 151,
-            "previous_bpm": 154,
-            "pct_change": -1.9
-          }
-        },
-        "rotation_index": -5.2,
-        "note": "Compares max sustained HR at 4 anchor durations (60s anaerobic ceiling, 300s VO2max HR, 1200s threshold HR, 3600s endurance HR) across two 28d windows. rotation_index = mean(60s,300s pct_change) - mean(1200s,3600s pct_change). Positive = intensity-biased HR shift, negative = endurance-biased. No sport filter \u2014 HR is cross-sport physiological (dominated by hardest efforts). IMPORTANT: rising max sustained HR is ambiguous \u2014 may indicate improved cardiac output (good) or accumulated fatigue/dehydration/heat (bad). Cross-reference with resting HRV, resting HR, RPE, and environmental context before interpreting. Null when either window has fewer than 3 valid anchor durations."
+        "anchors": null,
+        "rotation_index": null,
+        "note": "Insufficient HR data in one or both windows."
       },
       "sustainability_profile": {
         "window": {
@@ -505,7 +484,7 @@
     "p_max": 758,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-01T15:34:14.219451",
+    "calculation_timestamp": "2026-05-01T19:54:02.813446",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
