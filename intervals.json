@@ -1,69 +1,10 @@
 {
-  "generated_at": "2026-06-01T23:58:34.687713",
+  "generated_at": "2026-06-02T04:54:54.741314",
   "version": "3.103",
   "script_hash": "504417168730",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i149303636",
-      "date": "2026-05-18",
-      "type": "Run",
-      "name": "Sydney Running",
-      "interval_summary": [
-        "1x 10m48s 142bpm",
-        "2x 13m25s 152bpm",
-        "1x 11m27s 161bpm",
-        "1x 2m4s 153bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "648s@142bpm79rpm",
-          "duration_secs": 648,
-          "avg_hr": 142,
-          "max_hr": 156,
-          "avg_cadence": 79.0629,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "805s@152bpm77rpm",
-          "duration_secs": 841,
-          "avg_hr": 146,
-          "max_hr": 167,
-          "avg_cadence": 76.68274,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "687s@161bpm74rpm",
-          "duration_secs": 687,
-          "avg_hr": 161,
-          "max_hr": 185,
-          "avg_cadence": 73.703705,
-          "zone": 3
-        },
-        {
-          "type": "WORK",
-          "label": "805s@152bpm77rpm",
-          "duration_secs": 769,
-          "avg_hr": 157,
-          "max_hr": 186,
-          "avg_cadence": 77.65,
-          "zone": 3
-        },
-        {
-          "type": "WORK",
-          "label": "124s@153bpm74rpm",
-          "duration_secs": 124,
-          "avg_hr": 153,
-          "max_hr": 169,
-          "avg_cadence": 74.36585,
-          "zone": 2
-        }
-      ]
-    },
     {
       "activity_id": "i152806522",
       "date": "2026-05-31",
