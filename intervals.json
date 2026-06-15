@@ -1,59 +1,10 @@
 {
-  "generated_at": "2026-06-14T23:52:40.013968",
+  "generated_at": "2026-06-15T04:44:55.404939",
   "version": "3.103",
   "script_hash": "504417168730",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i152806522",
-      "date": "2026-05-31",
-      "type": "Run",
-      "name": "Auckland Running",
-      "interval_summary": [
-        "2x 11m21s 135bpm",
-        "1x 9m32s 150bpm",
-        "1x 7m44s 153bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "681s@135bpm77rpm",
-          "duration_secs": 655,
-          "avg_hr": 128,
-          "max_hr": 147,
-          "avg_cadence": 79.335434,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "681s@135bpm77rpm",
-          "duration_secs": 707,
-          "avg_hr": 141,
-          "max_hr": 154,
-          "avg_cadence": 75.33842,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "572s@150bpm79rpm",
-          "duration_secs": 572,
-          "avg_hr": 150,
-          "max_hr": 167,
-          "avg_cadence": 78.666084,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "464s@153bpm78rpm",
-          "duration_secs": 464,
-          "avg_hr": 153,
-          "max_hr": 176,
-          "avg_cadence": 78.355606,
-          "zone": 2
-        }
-      ]
-    },
     {
       "activity_id": "i153336064",
       "date": "2026-06-02",
