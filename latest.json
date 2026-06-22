@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-22T00:14:29.950643",
+    "last_updated": "2026-06-22T05:34:16.710446",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.103"
@@ -139,7 +139,7 @@
       "unavailable": 4
     },
     "phase_context": {
-      "phase": "Base",
+      "phase": "Recovery",
       "phase_week": 1,
       "amber_threshold": 2,
       "modifier_applied": "default"
@@ -151,9 +151,9 @@
   },
   "history": {
     "available": true,
-    "last_generated": "2026-05-24",
-    "age_days": 29,
-    "total_months": 13,
+    "last_generated": "2026-06-22",
+    "age_days": 0,
+    "total_months": 14,
     "history_confidence": "high"
   },
   "summary": {
@@ -446,15 +446,15 @@
       "note": "No planned workouts in period"
     },
     "phase_detection": {
-      "phase": "Base",
+      "phase": "Recovery",
       "confidence": "medium",
       "reason_codes": [
-        "NO_PLANNED_WORKOUTS"
+        "DECLINING_LOAD_NO_HARD_DAYS"
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": null,
-          "acwr_trend": null,
+          "ctl_slope": -1.25,
+          "acwr_trend": "falling",
           "hard_day_pattern": 0,
           "weeks_available": 4
         },
@@ -476,9 +476,9 @@
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Base",
+    "phase_detected": "Recovery",
     "phase_triggers": [
-      "NO_PLANNED_WORKOUTS"
+      "DECLINING_LOAD_NO_HARD_DAYS"
     ],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
@@ -501,7 +501,7 @@
     "p_max": 724,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-22T00:14:29.949525",
+    "calculation_timestamp": "2026-06-22T05:34:16.709323",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
