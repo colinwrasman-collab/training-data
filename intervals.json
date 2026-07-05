@@ -1,44 +1,10 @@
 {
-  "generated_at": "2026-07-04T23:44:07.095660",
+  "generated_at": "2026-07-05T01:26:42.549500",
   "version": "3.103",
   "script_hash": "504417168730",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i159091496",
-      "date": "2026-06-20",
-      "type": "Ride",
-      "name": "Auckland Cycling",
-      "interval_summary": [
-        "2x 23m33s 63bpm",
-        "1x 22m10s "
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1413s@63bpm",
-          "duration_secs": 1367,
-          "avg_hr": 126,
-          "max_hr": 183,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1
-        },
-        {
-          "type": "WORK",
-          "label": "1413s@63bpm",
-          "duration_secs": 1459
-        },
-        {
-          "type": "WORK",
-          "label": "1330s@5.66mps",
-          "duration_secs": 1330
-        }
-      ]
-    },
     {
       "activity_id": "i161541113",
       "date": "2026-06-30",
