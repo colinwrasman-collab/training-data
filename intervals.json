@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T16:01:53.135611",
+  "generated_at": "2026-07-18T17:14:32.063515",
   "version": "3.103",
   "script_hash": "504417168730",
   "scan_hours": 72,
@@ -284,6 +284,101 @@
           "avg_hr": 109,
           "max_hr": 132,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i166931015",
+      "date": "2026-07-18",
+      "type": "TrailRun",
+      "name": "Fort Collins Trail Running",
+      "interval_summary": [
+        "1x 7m47s 139bpm",
+        "1x 47s 159bpm",
+        "4x 10m25s 166bpm",
+        "1x 69s 146bpm",
+        "1x 77s 169bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "467s@139bpm79rpm",
+          "duration_secs": 467,
+          "avg_hr": 139,
+          "max_hr": 176,
+          "avg_cadence": 79.0985,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "47s@159bpm56rpm",
+          "duration_secs": 47,
+          "avg_hr": 159,
+          "max_hr": 170,
+          "avg_cadence": 56.17021,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "625s@166bpm75rpm",
+          "duration_secs": 646,
+          "avg_hr": 158,
+          "max_hr": 178,
+          "avg_cadence": 74.02322,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "625s@166bpm75rpm",
+          "duration_secs": 593,
+          "avg_hr": 168,
+          "max_hr": 178,
+          "avg_cadence": 77.8516,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "625s@166bpm75rpm",
+          "duration_secs": 666,
+          "avg_hr": 169,
+          "max_hr": 189,
+          "avg_cadence": 71.11433,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "69s@146bpm51rpm",
+          "duration_secs": 69,
+          "avg_hr": 146,
+          "max_hr": 158,
+          "avg_cadence": 50.536232,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "625s@166bpm75rpm",
+          "duration_secs": 594,
+          "avg_hr": 170,
+          "max_hr": 189,
+          "avg_cadence": 75.46296,
+          "zone": 4
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 175,
+          "max_hr": 175,
+          "avg_cadence": 79.0,
+          "zone": 5
+        },
+        {
+          "type": "WORK",
+          "label": "77s@169bpm74rpm",
+          "duration_secs": 77,
+          "avg_hr": 169,
+          "max_hr": 175,
+          "avg_cadence": 74.24,
+          "zone": 4
         }
       ]
     }
