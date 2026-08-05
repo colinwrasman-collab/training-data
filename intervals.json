@@ -1,30 +1,10 @@
 {
-  "generated_at": "2026-08-04T23:11:23.757833",
+  "generated_at": "2026-08-05T00:15:28.006094",
   "version": "3.103",
   "script_hash": "504417168730",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i168785921",
-      "date": "2026-07-21",
-      "type": "VirtualRun",
-      "name": "Treadmill Running",
-      "interval_summary": [
-        "1x 10m27s 112bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "627s@112bpm73rpm",
-          "duration_secs": 627,
-          "avg_hr": 112,
-          "max_hr": 120,
-          "avg_cadence": 72.8102,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i169538107",
       "date": "2026-07-25",
