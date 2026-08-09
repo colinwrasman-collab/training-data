@@ -1,78 +1,10 @@
 {
-  "generated_at": "2026-08-08T23:31:07.317312",
+  "generated_at": "2026-08-09T00:03:11.136981",
   "version": "3.103",
   "script_hash": "504417168730",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i169538107",
-      "date": "2026-07-25",
-      "type": "TrailRun",
-      "name": "Larimer County Trail Running",
-      "interval_summary": [
-        "1x 14m7s 116bpm",
-        "2x 10m32s 132bpm",
-        "2x 12m20s 154bpm",
-        "1x 6m50s 154bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "847s@116bpm70rpm",
-          "duration_secs": 847,
-          "avg_hr": 116,
-          "max_hr": 151,
-          "avg_cadence": 70.191956,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "632s@132bpm78rpm",
-          "duration_secs": 626,
-          "avg_hr": 126,
-          "max_hr": 138,
-          "avg_cadence": 78.222046,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "632s@132bpm78rpm",
-          "duration_secs": 637,
-          "avg_hr": 137,
-          "max_hr": 158,
-          "avg_cadence": 78.74568,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "740s@154bpm75rpm",
-          "duration_secs": 713,
-          "avg_hr": 149,
-          "max_hr": 163,
-          "avg_cadence": 75.17952,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "740s@154bpm75rpm",
-          "duration_secs": 766,
-          "avg_hr": 158,
-          "max_hr": 168,
-          "avg_cadence": 75.1906,
-          "zone": 3
-        },
-        {
-          "type": "WORK",
-          "label": "410s@154bpm69rpm",
-          "duration_secs": 410,
-          "avg_hr": 154,
-          "max_hr": 168,
-          "avg_cadence": 69.436584,
-          "zone": 2
-        }
-      ]
-    },
     {
       "activity_id": "i169744772",
       "date": "2026-07-27",
