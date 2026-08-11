@@ -1,68 +1,10 @@
 {
-  "generated_at": "2026-08-10T23:40:00.449418",
+  "generated_at": "2026-08-11T00:34:03.962481",
   "version": "3.103",
   "script_hash": "504417168730",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i169744772",
-      "date": "2026-07-27",
-      "type": "Ride",
-      "name": "Fort Collins Cycling",
-      "interval_summary": [
-        "1x 10m53s 109bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "653s@109bpm",
-          "duration_secs": 653,
-          "avg_hr": 109,
-          "max_hr": 133,
-          "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i169876454",
-      "date": "2026-07-27",
-      "type": "Ride",
-      "name": "Fort Collins Cycling",
-      "interval_summary": [
-        "1x 7m34s 123bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "454s@123bpm",
-          "duration_secs": 454,
-          "avg_hr": 123,
-          "max_hr": 164,
-          "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i169881495",
-      "date": "2026-07-27",
-      "type": "VirtualRun",
-      "name": "Treadmill Running",
-      "interval_summary": [
-        "1x 7m5s 161bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "425s@161bpm79rpm",
-          "duration_secs": 425,
-          "avg_hr": 161,
-          "max_hr": 185,
-          "avg_cadence": 78.70118,
-          "zone": 3
-        }
-      ]
-    },
     {
       "activity_id": "i170871549",
       "date": "2026-07-30",
