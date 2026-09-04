@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T11:07:51.796232",
+  "generated_at": "2026-09-04T14:58:06.152842",
   "version": "3.103",
   "script_hash": "504417168730",
   "scan_hours": 72,
@@ -117,6 +117,83 @@
           "max_hr": 159,
           "avg_cadence": 65.35331,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i183245423",
+      "date": "2026-09-04",
+      "type": "Run",
+      "name": "Fort Collins Running",
+      "interval_summary": [
+        "1x 10m35s 136bpm",
+        "1x 6m8s 133bpm",
+        "2x 1m58s 157bpm",
+        "1x 72s 154bpm",
+        "1x 7m41s 150bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "635s@136bpm77rpm",
+          "duration_secs": 635,
+          "avg_hr": 136,
+          "max_hr": 154,
+          "avg_cadence": 77.02677,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 141,
+          "max_hr": 141,
+          "avg_cadence": 77.0,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "368s@133bpm77rpm",
+          "duration_secs": 368,
+          "avg_hr": 133,
+          "max_hr": 144,
+          "avg_cadence": 76.815216,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "118s@157bpm74rpm",
+          "duration_secs": 112,
+          "avg_hr": 156,
+          "max_hr": 184,
+          "avg_cadence": 80.94643,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "118s@157bpm74rpm",
+          "duration_secs": 123,
+          "avg_hr": 157,
+          "max_hr": 190,
+          "avg_cadence": 67.74797,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "72s@154bpm84rpm",
+          "duration_secs": 72,
+          "avg_hr": 154,
+          "max_hr": 189,
+          "avg_cadence": 84.19444,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "461s@150bpm76rpm",
+          "duration_secs": 461,
+          "avg_hr": 150,
+          "max_hr": 190,
+          "avg_cadence": 76.2321,
+          "zone": 2
         }
       ]
     }
