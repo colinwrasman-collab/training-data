@@ -1,38 +1,10 @@
 {
-  "generated_at": "2026-10-07T19:51:42.919642",
+  "generated_at": "2026-10-08T00:03:10.412556",
   "version": "3.103",
   "script_hash": "504417168730",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i190571275",
-      "date": "2026-09-23",
-      "type": "Ride",
-      "name": "Fort Collins Cycling",
-      "interval_summary": [
-        "1x 31m39s 135bpm",
-        "1x 1h21m 114bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1899s@135bpm",
-          "duration_secs": 1899,
-          "avg_hr": 135,
-          "max_hr": 178,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "4896s@114bpm",
-          "duration_secs": 4896,
-          "avg_hr": 114,
-          "max_hr": 145,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i190635056",
       "date": "2026-09-26",
