@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T18:43:39.193555",
+  "generated_at": "2026-10-13T00:59:31.834927",
   "version": "3.103",
   "script_hash": "504417168730",
   "scan_hours": 72,
@@ -287,6 +287,55 @@
           "avg_hr": 139,
           "max_hr": 171,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i196604900",
+      "date": "2026-10-12",
+      "type": "TrailRun",
+      "name": "Fort Collins Trail Running",
+      "interval_summary": [
+        "2x 12m29s 162bpm",
+        "1x 9m11s 167bpm",
+        "1x 2m2s 160bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "749s@162bpm69rpm",
+          "duration_secs": 711,
+          "avg_hr": 160,
+          "max_hr": 186,
+          "avg_cadence": 72.16619,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "749s@162bpm69rpm",
+          "duration_secs": 787,
+          "avg_hr": 163,
+          "max_hr": 191,
+          "avg_cadence": 66.383736,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "551s@167bpm79rpm",
+          "duration_secs": 551,
+          "avg_hr": 167,
+          "max_hr": 180,
+          "avg_cadence": 78.74955,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "122s@160bpm79rpm",
+          "duration_secs": 122,
+          "avg_hr": 160,
+          "max_hr": 164,
+          "avg_cadence": 79.16393,
+          "zone": 3
         }
       ]
     }
