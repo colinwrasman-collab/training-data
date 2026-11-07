@@ -1,0 +1,23 @@
+name: Push Planned Workouts to Intervals.icu
+
+on:
+  push:
+    paths:
+      - 'workouts/**'
+      - 'push_workouts.py'
+  workflow_dispatch:
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Upload workouts
+        env:
+          ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
+          INTERVALS_KEY: ${{ secrets.INTERVALS_KEY }}
+        run: python push_workouts.py

@@ -1,0 +1,98 @@
+[
+ {
+  "date": "2026-11-09",
+  "type": "Run",
+  "name": "Easy run (down week)",
+  "description": "- 25m easy, full sentences"
+ },
+ {
+  "date": "2026-11-12",
+  "type": "Run",
+  "name": "Easy run (down week)",
+  "description": "- 20m easy, full sentences"
+ },
+ {
+  "date": "2026-11-14",
+  "type": "Ride",
+  "name": "Brick ride (down week)",
+  "description": "- 60m easy"
+ },
+ {
+  "date": "2026-11-14",
+  "type": "Run",
+  "name": "Brick run (down week)",
+  "description": "- 20m easy off the bike"
+ },
+ {
+  "date": "2026-11-16",
+  "type": "Run",
+  "name": "Intervals 6x1",
+  "description": "Warm up\n- 10m easy, full sentences\n\nMain set 6x\n- 1m hard, last rep is real work\n- 1m easy jog\n\nCool down\n- 5m easy"
+ },
+ {
+  "date": "2026-11-19",
+  "type": "Run",
+  "name": "Tempo 3x3",
+  "description": "Warm up\n- 10m easy\n\nMain set 3x\n- 3m tempo, comfortably hard\n- 1m easy jog\n\nCool down\n- 5m easy"
+ },
+ {
+  "date": "2026-11-21",
+  "type": "Ride",
+  "name": "Brick ride",
+  "description": "- 90m easy"
+ },
+ {
+  "date": "2026-11-21",
+  "type": "Run",
+  "name": "Brick run",
+  "description": "- 20m easy off the bike"
+ },
+ {
+  "date": "2026-11-23",
+  "type": "Run",
+  "name": "Intervals 7x1",
+  "description": "Warm up\n- 10m easy, full sentences\n\nMain set 7x\n- 1m hard, last rep is real work\n- 1m easy jog\n\nCool down\n- 5m easy"
+ },
+ {
+  "date": "2026-11-26",
+  "type": "Run",
+  "name": "Tempo 3x4",
+  "description": "Warm up\n- 10m easy\n\nMain set 3x\n- 4m tempo, comfortably hard\n- 1m easy jog\n\nCool down\n- 5m easy"
+ },
+ {
+  "date": "2026-11-28",
+  "type": "Ride",
+  "name": "Brick ride",
+  "description": "- 90m easy"
+ },
+ {
+  "date": "2026-11-28",
+  "type": "Run",
+  "name": "Brick run",
+  "description": "- 25m easy off the bike"
+ },
+ {
+  "date": "2026-11-30",
+  "type": "Run",
+  "name": "Intervals 8x1",
+  "description": "Warm up\n- 10m easy, full sentences\n\nMain set 8x\n- 1m hard, last rep is real work\n- 1m easy jog\n\nCool down\n- 5m easy"
+ },
+ {
+  "date": "2026-12-03",
+  "type": "Run",
+  "name": "Tempo 3x5",
+  "description": "Warm up\n- 10m easy\n\nMain set 3x\n- 5m tempo, comfortably hard\n- 1m easy jog\n\nCool down\n- 5m easy"
+ },
+ {
+  "date": "2026-12-05",
+  "type": "Ride",
+  "name": "Brick ride",
+  "description": "- 90m easy"
+ },
+ {
+  "date": "2026-12-05",
+  "type": "Run",
+  "name": "Brick run",
+  "description": "- 30m easy off the bike"
+ }
+]
