@@ -14,7 +14,7 @@ events = []
 for path in sorted(glob.glob("workouts/*.json")):
     for w in json.load(open(path)):
         events.append({
-            "category": "WORKOUT",
+            "category": w.get("category", "WORKOUT"),
             "start_date_local": w["date"] + "T00:00:00",
             "type": w["type"],
             "name": w["name"],
