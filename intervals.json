@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T18:50:52.538177",
+  "generated_at": "2026-11-10T23:55:38.536720",
   "version": "3.103",
   "script_hash": "504417168730",
   "scan_hours": 72,
@@ -305,6 +305,42 @@
           "avg_hr": 132,
           "max_hr": 135,
           "avg_cadence": 79.6875,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i208491208",
+      "date": "2026-11-10",
+      "type": "Ride",
+      "name": "Easy ride (down week)",
+      "interval_summary": [
+        "2x 18m34s 129bpm",
+        "1x 16m40s 129bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1114s@129bpm",
+          "duration_secs": 1112,
+          "avg_hr": 126,
+          "max_hr": 173,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1114s@129bpm",
+          "duration_secs": 1115,
+          "avg_hr": 131,
+          "max_hr": 147,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1000s@129bpm",
+          "duration_secs": 1000,
+          "avg_hr": 129,
+          "max_hr": 160,
           "zone": 1
         }
       ]
