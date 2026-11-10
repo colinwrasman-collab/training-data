@@ -94,5 +94,29 @@
   "type": "Run",
   "name": "Brick run",
   "description": "- 30m easy off the bike"
+ },
+ {
+  "date": "2026-11-10",
+  "type": "Ride",
+  "name": "Easy ride (down week)",
+  "description": "- 45m easy, full conversation"
+ },
+ {
+  "date": "2026-11-17",
+  "type": "Ride",
+  "name": "Easy ride",
+  "description": "- 60m easy, full conversation"
+ },
+ {
+  "date": "2026-11-24",
+  "type": "Ride",
+  "name": "Easy ride",
+  "description": "- 60m easy, full conversation"
+ },
+ {
+  "date": "2026-12-01",
+  "type": "Ride",
+  "name": "Easy ride",
+  "description": "- 60m easy, full conversation"
  }
 ]
