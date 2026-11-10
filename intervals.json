@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T20:46:41.043669",
+  "generated_at": "2026-11-10T03:16:51.030111",
   "version": "3.103",
   "script_hash": "504417168730",
   "scan_hours": 72,
@@ -257,6 +257,55 @@
           "max_hr": 163,
           "avg_cadence": 78.49102,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i208081071",
+      "date": "2026-11-09",
+      "type": "VirtualRun",
+      "name": "Easy run (down week)",
+      "interval_summary": [
+        "2x 11m4s 129bpm",
+        "1x 2m55s 132bpm",
+        "1x 16s 132bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "664s@129bpm78rpm",
+          "duration_secs": 671,
+          "avg_hr": 124,
+          "max_hr": 137,
+          "avg_cadence": 77.54247,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "664s@129bpm78rpm",
+          "duration_secs": 656,
+          "avg_hr": 133,
+          "max_hr": 140,
+          "avg_cadence": 77.65396,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "175s@132bpm78rpm",
+          "duration_secs": 175,
+          "avg_hr": 132,
+          "max_hr": 136,
+          "avg_cadence": 78.13143,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "16s@132bpm80rpm",
+          "duration_secs": 16,
+          "avg_hr": 132,
+          "max_hr": 135,
+          "avg_cadence": 79.6875,
+          "zone": 1
         }
       ]
     }
