@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-14T22:40:13.718568",
+    "last_updated": "2026-11-15T02:08:41.405495",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.103"
@@ -129,7 +129,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -10.1
+        "value": -7.2
       }
     },
     "signal_summary": {
@@ -152,7 +152,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-10-18",
-    "age_days": 27,
+    "age_days": 28,
     "total_months": 18,
     "history_confidence": "high"
   },
@@ -202,10 +202,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 13.56,
-      "atl": 23.64,
-      "tsb": -10.08,
-      "ramp_rate": 1.63,
+      "ctl": 13.25,
+      "atl": 20.49,
+      "tsb": -7.24,
+      "ramp_rate": 1.59,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -400,12 +400,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-10-18",
-          "end": "2026-11-14"
+          "start": "2026-10-19",
+          "end": "2026-11-15"
         },
         "previous_window": {
-          "start": "2026-09-20",
-          "end": "2026-10-17"
+          "start": "2026-09-21",
+          "end": "2026-10-18"
         },
         "anchors": null,
         "rotation_index": null,
@@ -414,12 +414,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-10-18",
-          "end": "2026-11-14"
+          "start": "2026-10-19",
+          "end": "2026-11-15"
         },
         "previous_window": {
-          "start": "2026-09-20",
-          "end": "2026-10-17"
+          "start": "2026-09-21",
+          "end": "2026-10-18"
         },
         "anchors": {
           "60s": {
@@ -449,8 +449,8 @@
       "sustainability_profile": {
         "window": {
           "days": 42,
-          "start": "2026-10-04",
-          "end": "2026-11-14"
+          "start": "2026-10-05",
+          "end": "2026-11-15"
         },
         "weight_kg": 78.0,
         "weight_source": "athlete_profile",
@@ -496,7 +496,7 @@
           "current_week_hard_days_total": 0,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.5,
+          "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 1.25
         },
         "data_quality": "good",
@@ -530,7 +530,7 @@
     "p_max": 680,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-14T22:40:13.718059",
+    "calculation_timestamp": "2026-11-15T02:08:41.404541",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -1527,45 +1527,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-11-08",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": null,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
-    {
       "date": "2026-11-09",
       "weight_kg": null,
       "resting_hr": null,
@@ -1798,35 +1759,48 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": null
+    },
+    {
+      "date": "2026-11-15",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 153031616,
-      "date": "2026-11-14",
-      "name": "Brick ride (down week)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 60m easy"
-    },
-    {
-      "id": 153031617,
-      "date": "2026-11-14",
-      "name": "Brick run (down week)",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.33,
-      "duration_formatted": "20m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 20m easy off the bike"
-    },
     {
       "id": 153031618,
       "date": "2026-11-16",
@@ -2020,12 +1994,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 17,
+    "attempted": 15,
     "success": 6,
     "patternA": 6,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 11
+    "bail_no_match": 9
   },
   "weekly_summary": {
     "total_training_hours": 4.26,
