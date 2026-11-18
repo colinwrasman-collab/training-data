@@ -111,12 +111,42 @@
   "date": "2026-11-24",
   "type": "Ride",
   "name": "Easy ride",
-  "description": "- 60m easy, full conversation"
+  "description": "- 70m easy, full conversation"
  },
  {
   "date": "2026-12-01",
   "type": "Ride",
   "name": "Easy ride",
-  "description": "- 60m easy, full conversation"
+  "description": "- 75m easy, full conversation"
+ },
+ {
+  "date": "2026-12-07",
+  "type": "Run",
+  "name": "TEST: Mile time trial",
+  "description": "Warm up\n- 15m easy\n\nStrides 4x\n- 20s quick, relaxed\n- 40s walk/jog\n\nMile\n- 1mi all-out, even effort\n\nCool down\n- 10m easy"
+ },
+ {
+  "date": "2026-12-08",
+  "type": "Ride",
+  "name": "Easy ride (down week)",
+  "description": "- 45m easy, full conversation"
+ },
+ {
+  "date": "2026-12-10",
+  "type": "Run",
+  "name": "Easy run (down week)",
+  "description": "- 20m easy, full sentences"
+ },
+ {
+  "date": "2026-12-12",
+  "type": "Ride",
+  "name": "TEST: 20-min FTP",
+  "description": "Warm up\n- 15m easy\n- 3x 1m hard / 1m easy\n- 5m easy\n\nTest\n- 20m all-out, evenly paced\n\nCool down\n- 10m easy"
+ },
+ {
+  "date": "2026-12-12",
+  "type": "Run",
+  "name": "Brick run (down week)",
+  "description": "- 15m easy off the bike"
  }
 ]
