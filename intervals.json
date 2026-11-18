@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T19:44:36.799554",
+  "generated_at": "2026-11-18T01:53:03.008323",
   "version": "3.103",
   "script_hash": "504417168730",
   "scan_hours": 72,
@@ -1272,6 +1272,68 @@
           "max_hr": 153,
           "avg_cadence": 78.28571,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i211441340",
+      "date": "2026-11-17",
+      "type": "Ride",
+      "name": "Easy ride",
+      "interval_summary": [
+        "1x 10m37s 112bpm",
+        "3x 18m2s 136bpm",
+        "1x 93s 135bpm",
+        "1x 89s 118bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "637s@112bpm",
+          "duration_secs": 637,
+          "avg_hr": 112,
+          "max_hr": 139,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1082s@136bpm",
+          "duration_secs": 1068,
+          "avg_hr": 136,
+          "max_hr": 160,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1082s@136bpm",
+          "duration_secs": 1098,
+          "avg_hr": 136,
+          "max_hr": 167,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1082s@136bpm",
+          "duration_secs": 1079,
+          "avg_hr": 137,
+          "max_hr": 167,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "93s@135bpm",
+          "duration_secs": 93,
+          "avg_hr": 135,
+          "max_hr": 151,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "89s@118bpm",
+          "duration_secs": 89,
+          "avg_hr": 118,
+          "max_hr": 146,
+          "zone": 1
         }
       ]
     }
