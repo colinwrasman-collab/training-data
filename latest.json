@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-18T01:53:04.085211",
+    "last_updated": "2026-11-18T09:52:18.653406",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.103"
@@ -538,7 +538,7 @@
     "p_max": 680,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-18T01:53:04.084438",
+    "calculation_timestamp": "2026-11-18T09:52:18.652396",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -1968,11 +1968,11 @@
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": null,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 60m easy, full conversation"
+      "description": "- 70m easy, full conversation"
     },
     {
       "id": 153031624,
@@ -2031,11 +2031,11 @@
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": null,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 60m easy, full conversation"
+      "description_preview": "- 75m easy, full conversation"
     },
     {
       "id": 153031628,
@@ -2074,15 +2074,79 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "- 30m easy off the bike"
+    },
+    {
+      "id": 157493405,
+      "date": "2026-12-07",
+      "name": "TEST: Mile time trial",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.63,
+      "duration_formatted": "38m1s",
+      "workout_summary": "15m | 4\u00d720s / 40s rec | 9m1s | 10m",
+      "has_terrain": false
+    },
+    {
+      "id": 157493406,
+      "date": "2026-12-08",
+      "name": "Easy ride (down week)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- 45m easy, full conversation"
+    },
+    {
+      "id": 157493407,
+      "date": "2026-12-10",
+      "name": "Easy run (down week)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.33,
+      "duration_formatted": "20m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- 20m easy, full sentences"
+    },
+    {
+      "id": 157493408,
+      "date": "2026-12-12",
+      "name": "TEST: 20-min FTP",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.85,
+      "duration_formatted": "51m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Warm up\n- 15m easy\n- 3x 1m hard / 1m easy"
+    },
+    {
+      "id": 157493409,
+      "date": "2026-12-12",
+      "name": "Brick run (down week)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.25,
+      "duration_formatted": "15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "- 15m easy off the bike"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 13,
-    "success": 5,
-    "patternA": 5,
+    "attempted": 18,
+    "success": 6,
+    "patternA": 6,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 8
+    "bail_no_match": 12
   },
   "weekly_summary": {
     "total_training_hours": 4.35,
