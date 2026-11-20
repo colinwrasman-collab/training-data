@@ -148,5 +148,11 @@
   "type": "Run",
   "name": "Brick run (down week)",
   "description": "- 15m easy off the bike"
+ },
+ {
+  "date": "2026-11-20",
+  "type": "Run",
+  "name": "Tempo 3x3 (moved from Thu)",
+  "description": "Warm up\n- 10m easy\n\nMain set 3x\n- 3m tempo, comfortably hard\n- 1m easy jog\n\nCool down\n- 5m easy"
  }
 ]
