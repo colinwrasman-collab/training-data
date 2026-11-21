@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T17:43:48.344559",
+  "generated_at": "2026-11-21T22:26:56.541681",
   "version": "3.103",
   "script_hash": "504417168730",
   "scan_hours": 72,
@@ -1681,6 +1681,55 @@
           "duration_secs": 1,
           "avg_hr": 138,
           "max_hr": 138,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i212908880",
+      "date": "2026-11-21",
+      "type": "Run",
+      "name": "Brick run",
+      "interval_summary": [
+        "2x 8m33s 144bpm",
+        "1x 2m56s 150bpm",
+        "1x 2s 141bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "513s@144bpm81rpm",
+          "duration_secs": 503,
+          "avg_hr": 141,
+          "max_hr": 151,
+          "avg_cadence": 81.76342,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "513s@144bpm81rpm",
+          "duration_secs": 522,
+          "avg_hr": 147,
+          "max_hr": 155,
+          "avg_cadence": 80.64751,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "176s@150bpm81rpm",
+          "duration_secs": 176,
+          "avg_hr": 150,
+          "max_hr": 155,
+          "avg_cadence": 80.744316,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "2s@141bpm79rpm",
+          "duration_secs": 2,
+          "avg_hr": 141,
+          "max_hr": 142,
+          "avg_cadence": 79.0,
           "zone": 1
         }
       ]
