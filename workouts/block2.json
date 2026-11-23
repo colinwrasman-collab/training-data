@@ -57,7 +57,7 @@
   "date": "2026-11-26",
   "type": "Run",
   "name": "Tempo 3x4",
-  "description": "Warm up\n- 10m 75-83% LTHR\n\nMain set 3x\n- 4m 92-96% LTHR\n- 1m easy jog\n\nCool down\n- 5m 75-83% LTHR"
+  "description": "Warm up\n- 10m 60-83% LTHR\n\nMain set 3x\n- 90s 7:00-7:20/mi Pace\n- 2m30s 92-96% LTHR\n- 1m easy jog\n\nCool down\n- 5m 60-83% LTHR"
  },
  {
   "date": "2026-11-28",
@@ -69,19 +69,19 @@
   "date": "2026-11-28",
   "type": "Run",
   "name": "Brick run",
-  "description": "- 25m 75-83% LTHR"
+  "description": "- 25m 60-83% LTHR"
  },
  {
   "date": "2026-11-30",
   "type": "Run",
   "name": "Intervals 8x1",
-  "description": "Warm up\n- 10m 75-83% LTHR\n\nMain set 8x\n- 1m hard, last rep is real work\n- 1m easy jog\n\nCool down\n- 5m 75-83% LTHR"
+  "description": "Warm up\n- 10m 60-83% LTHR\n\nMain set 8x\n- 1m 6:00-6:25/mi Pace\n- 1m easy jog\n\nCool down\n- 5m 60-83% LTHR"
  },
  {
   "date": "2026-12-03",
   "type": "Run",
   "name": "Tempo 3x5",
-  "description": "Warm up\n- 10m 75-83% LTHR\n\nMain set 3x\n- 5m 92-96% LTHR\n- 1m easy jog\n\nCool down\n- 5m 75-83% LTHR"
+  "description": "Warm up\n- 10m 60-83% LTHR\n\nMain set 3x\n- 90s 7:00-7:20/mi Pace\n- 3m30s 92-96% LTHR\n- 1m easy jog\n\nCool down\n- 5m 60-83% LTHR"
  },
  {
   "date": "2026-12-05",
@@ -93,7 +93,7 @@
   "date": "2026-12-05",
   "type": "Run",
   "name": "Brick run",
-  "description": "- 30m 75-83% LTHR"
+  "description": "- 30m 60-83% LTHR"
  },
  {
   "date": "2026-11-10",
@@ -123,7 +123,7 @@
   "date": "2026-12-07",
   "type": "Run",
   "name": "TEST: Mile time trial",
-  "description": "Warm up\n- 15m 75-83% LTHR\n\nStrides 4x\n- 20s quick, relaxed\n- 40s walk/jog\n\nMile\n- 1mi all-out, even effort\n\nCool down\n- 10m 75-83% LTHR"
+  "description": "Warm up\n- 15m 60-83% LTHR\n\nStrides 4x\n- 20s quick, relaxed\n- 40s walk/jog\n\nMile\n- 1mi all-out, even effort\n\nCool down\n- 10m 60-83% LTHR"
  },
  {
   "date": "2026-12-08",
@@ -135,7 +135,7 @@
   "date": "2026-12-10",
   "type": "Run",
   "name": "Easy run (down week)",
-  "description": "- 20m 75-83% LTHR"
+  "description": "- 20m 60-83% LTHR"
  },
  {
   "date": "2026-12-12",
@@ -147,7 +147,7 @@
   "date": "2026-12-12",
   "type": "Run",
   "name": "Brick run (down week)",
-  "description": "- 15m 75-83% LTHR"
+  "description": "- 15m 60-83% LTHR"
  },
  {
   "date": "2026-11-20",
