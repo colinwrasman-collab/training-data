@@ -31,6 +31,20 @@ r = requests.post(
     headers={"Authorization": auth, "Content-Type": "application/json"},
     data=json.dumps(events), timeout=60,
 )
-print(r.status_code, r.text[:500])
+print(r.status_code)
+try:
+    for ev in r.json():
+        doc = ev.get("workout_doc") or {}
+        tg = []
+        def walk(steps):
+            for st in steps or []:
+                if st.get("steps"): walk(st["steps"]); continue
+                t = [k for k in ("hr", "pace", "power") if st.get(k)]
+                tg.append(f'{st.get("duration","?")}s:{"/".join(t) or "open"}' + (f'={st.get("hr")}' if st.get("hr") else ""))
+        walk(doc.get("steps"))
+        if ev.get("start_date_local","") >= "2026-11-24":
+            print(ev.get("start_date_local","")[:10], ev.get("name"), "|", " ".join(tg)[:300])
+except Exception as e:
+    print("summary failed:", e, r.text[:500])
 r.raise_for_status()
 print(f"Uploaded {len(events)} workouts")
