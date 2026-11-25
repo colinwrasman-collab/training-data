@@ -48,3 +48,24 @@ except Exception as e:
     print("summary failed:", e, r.text[:500])
 r.raise_for_status()
 print(f"Uploaded {len(events)} workouts")
+
+# Keep the calendar in step with the files: remove future planned workouts
+# that were created by this script but no longer appear in workouts/*.json
+# (e.g. a session moved to another day).
+import datetime as _dt
+today = _dt.date.today() - _dt.timedelta(days=1)
+wanted = {e["external_id"] for e in events}
+g = requests.get(
+    f"https://intervals.icu/api/v1/athlete/{athlete}/events",
+    params={"oldest": str(today), "newest": str(today + _dt.timedelta(days=400))},
+    headers={"Authorization": auth}, timeout=60,
+)
+g.raise_for_status()
+for ev in g.json():
+    ext = ev.get("external_id") or ""
+    if ext.startswith("plan-") and ext not in wanted:
+        d = requests.delete(
+            f"https://intervals.icu/api/v1/athlete/{athlete}/events/{ev['id']}",
+            headers={"Authorization": auth}, timeout=60,
+        )
+        print("removed", ev.get("start_date_local", "")[:10], ev.get("name"), d.status_code)
